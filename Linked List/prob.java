@@ -23,9 +23,9 @@ public class prob {
         d.next = e;
         e.next = f;
 
-        // System.out.println(a.data);
-        // System.out.println(a.next.data);
-        // System.out.println(a.next.next.data);
+        System.out.println(a.data);
+        System.out.println(a.next.data);
+        System.out.println(a.next.next.data);
 
         Node temp = a;
 
