@@ -28,11 +28,14 @@ public class prob {
         System.out.println(a.next.next.data);
 
         Node temp = a;
-
+        System.out.println(temp);
         while (temp != null) {
             System.out.println(temp.data);
             temp = temp.next;
+            System.out.println(temp);
         }
+
+        System.out.println(b.next.data);
 
     }
 }
