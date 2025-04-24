@@ -17,25 +17,42 @@ public class prob {
         Node e = new Node(30);
         Node f = new Node(97);
 
+        Node H=new Node(1000);
+
         a.next = b;
         b.next = c;
         c.next = d;
         d.next = e;
         e.next = f;
 
-        System.out.println(a.data);
-        System.out.println(a.next.data);
-        System.out.println(a.next.next.data);
+        // System.out.println(a.data);
+        // System.out.println(a.next.data);
+        // System.out.println(a.next.next.data);
 
-        Node temp = a;
-        System.out.println(temp);
-        while (temp != null) {
-            System.out.println(temp.data);
-            temp = temp.next;
-            System.out.println(temp);
-        }
+        // Node temp = a;
+        // System.out.println(temp);
+        // while (temp != null) {
+        //     System.out.println(temp.data);
+        //     temp = temp.next;
+        //     System.out.println(temp);
+        // }
 
-        System.out.println(b.next.data);
+        H.next=b.next;
+        b.next=H;
+        
+        // System.out.println(H.next);
+        // System.out.println(b.next.next);
+        System.out.println(d.next.next.data);
+
+
+        //      Node temp = a;
+        // System.out.println(temp);
+        // while (temp != null) {
+        //     System.out.println(temp.data);
+        //     temp = temp.next;
+        //     System.out.println(temp);
+        // }
+
 
     }
 }
