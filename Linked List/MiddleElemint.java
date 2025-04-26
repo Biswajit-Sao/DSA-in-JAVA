@@ -74,5 +74,6 @@ public class MiddleElemint {
         Node Z=A.DeleteListMid(a);
         System.out.println();
         A.Show(a);
+        
     }
 }
