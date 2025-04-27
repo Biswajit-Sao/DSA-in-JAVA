@@ -23,6 +23,7 @@ public class array {
     //     int[] arr={11,43,22,54,2,22};
     //     int k=22,ans=-1;
     //     for(int i=0;i<arr.length;i++){
+    //
     //         if(arr[i]==k){
     //             ans=i;
     //             break;
