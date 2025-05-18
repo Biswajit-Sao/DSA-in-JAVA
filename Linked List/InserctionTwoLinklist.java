@@ -61,16 +61,16 @@ public class InserctionTwoLinklist {
     }
 
     public static void main(String[] args) {
-        Node a = new Node(10);
-        Node b = new Node(13);
-        Node c = new Node(16);
+        Node a = new Node(18);
+        Node b = new Node(18);
+        Node c = new Node(15);
         Node d = new Node(12);
         Node e = new Node(17);
         Node f = new Node(19);
-        Node g = new Node(29);
-        Node h = new Node(76);
-        Node i = new Node(56);
-        Node j = new Node(64);
+        Node g = new Node(18);
+        Node h = new Node(18);
+        Node i = new Node(18);
+        Node j = new Node(18);
 
         a.next = b;
         b.next = c;
